@@ -12,6 +12,12 @@ public class SceneChangeHandler : MonoBehaviour
         // Load the scene named "NewScene"
         SceneManager.LoadSceneAsync("MinScen", LoadSceneMode.Single);
     }
+    
+    public void WinScene()
+    {
+        // Load the scene named "NewScene"
+        SceneManager.LoadSceneAsync("WinScreen", LoadSceneMode.Single);
+    }
 
     public void QuitGame()
     {
